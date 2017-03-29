@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_dark"
+    android:padding="5dp">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="READ EXCEL FILE"
+        android:id="@+id/button"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="75dp"
+        android:layout_below="@+id/editText2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/holo_blue_light"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/common_google_signin_btn_text_dark"
+        android:textColorHighlight="#090606"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:shadowColor="@color/common_google_signin_btn_text_dark_focused"
+        android:padding="5dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="56dp"
+        android:layout_alignEnd="@+id/editText2"
+        android:layout_alignStart="@+id/editText2"
+        android:hint="Entter file URL" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:layout_below="@+id/editText"
+        android:layout_marginTop="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:hint="Enter Programme-year" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Successfully Uploaded!"
+        android:id="@+id/textView"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="73dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already Uploaded Data"
+        android:id="@+id/listtoremove"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="75dp"
+        android:background="@android:color/holo_blue_light"
+        android:textColor="@color/common_google_signin_btn_text_dark"
+        android:textColorHighlight="#090606"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:shadowColor="@color/common_google_signin_btn_text_dark_focused"
+        android:padding="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "541075147958",
+    "firebase_url": "https://excel-fd9c9.firebaseio.com",
+    "project_id": "excel-fd9c9",
+    "storage_bucket": "excel-fd9c9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:541075147958:android:3a8b8df2e7bac243",
+        "android_client_info": {
+          "package_name": "pro.kondratev.xlsxpoiexample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "541075147958-jj9cjp4n35s6g3qoq5ba5pukemuc2i96.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pro.kondratev.xlsxpoiexample",
+            "certificate_hash": "662E18D63A8D9F047699D3D53F79B1D242C2708B"
+          }
+        },
+        {
+          "client_id": "541075147958-pgkvv16anmabuk14qmu81ps9n66b43hc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzsYuBsBHDDCYeQ-Pic7QHFNXannIXIUA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "541075147958-pgkvv16anmabuk14qmu81ps9n66b43hc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
